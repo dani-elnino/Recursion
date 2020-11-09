@@ -1,0 +1,17 @@
+
+public class Cake {
+	private int bites = 10;
+	
+	public Cake() {
+		// Nothing to implement
+	}
+	
+	public void takeBite() {
+		--bites;
+		System.out.println("Hmm... ");
+	}
+	
+	public boolean isEmpty() {
+		return bites == 0;
+	}
+}
